@@ -15,7 +15,7 @@
    limitations under the License.
 */
 
-var debugmode = false;
+var debugmode = true;
 
 var states = Object.freeze({
    SplashScreen: 0,
@@ -35,7 +35,7 @@ var score = 0;
 var highscore = 0;
 
 var pipeheight = 90;
-var pipewidth = 520;
+var pipewidth = 52;
 var pipes = new Array();
 
 var replayclickable = false;
